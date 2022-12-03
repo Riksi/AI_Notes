@@ -1,3 +1,18 @@
+<script type="text/x-mathjax-config;executed=true">
+        MathJax.Hub.Config({
+          jax: ["input/TeX", "output/HTML-CSS"],
+          tex2jax: {
+            inlineMath: [ ['$', '$'], ["\\(", "\\)"] ],
+            displayMath: [ ['$$', '$$'], ["\\[", "\\]"] ],
+            processEscapes: true,
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+          }
+          //,
+          //displayAlign: "left",
+          //displayIndent: "2em"
+        });
+</script>
+<script src="./PIRL_files/MathJax.js" id=""></script>
 
 # Feature Pyramid Network
 In this note we will explain how to implement the Feature Pyramid Network (FPN) component of the RetinaNet detection model. Quotes are from the [RetinaNet paper](https://arxiv.org/abs/1708.02002) except for those from the [FPN paper](https://arxiv.org/abs/1612.03144) which are marked as such.
