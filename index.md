@@ -8,4 +8,4 @@
 
 [OLN](OLN.html)
 
-[Dice Coefficient for Semantic Segmentation.html](Dice_Coefficient_for_Semantic_Segmentation.html.html)
+[Dice Coefficient for Semantic Segmentation](Dice_Coefficient_for_Semantic_Segmentation.html.html)
